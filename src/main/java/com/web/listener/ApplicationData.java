@@ -11,9 +11,8 @@ public class ApplicationData implements ServletContextListener {
 
     private static final Map menus = new LinkedHashMap();
     static {
-        menus.put("discount_code", new String[]{"mvc/discount_code/", "優惠碼"});
-        menus.put("micro_market" , new String[]{"mvc/micro_market/", "市場區域"});
-        
+        menus.put("item1", new String[]{"mvc/item1/", "項目一"});
+        menus.put("item2", new String[]{"mvc/item2/", "項目二"});
     }
 
     @Override
@@ -23,7 +22,7 @@ public class ApplicationData implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent event) {
-        // NOOP.
+        
     }
 
 }
