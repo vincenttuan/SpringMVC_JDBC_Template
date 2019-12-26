@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.web</groupId>
-    <artifactId>SpringMVC_JDBC</artifactId>
+    <artifactId>SpringMVC_JDBC_Template</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
